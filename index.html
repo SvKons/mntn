@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="fonts/chronicledisplaybold.woff" as="font" />
+    <link rel="preload" href="fonts/chronicledisplaybold.woff2" as="font" />
+    <link rel="preload" href="fonts/chronicledisplaysemibold.woff" as="font" />
+    <link rel="preload" href="fonts/chronicledisplaysemibold.woff2" as="font" />
+    <link rel="preload" href="fonts/gilroymedium.woff" as="font" />
+    <link rel="preload" href="fonts/gilroymedium.woff2" as="font" />
+    <link rel="preload" href="fonts/gilroybold.woff" as="font" />
+    <link rel="preload" href="fonts/gilroybold.woff2" as="font" />
+    <link rel="preload" href="fonts/gilroyextrabold.woff" as="font" />
+    <link rel="preload" href="fonts/gilroyextrabold.woff2" as="font" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>MNTN</title>
+  </head>
+
+  <body>
+    <header class="header container">
+      <div class="header__wrap">
+        <div class="header__logo">
+          <a href="index.html" class="header__link">
+            <span class="header__text">MNTN</span>
+          </a>
+        </div>
+        <nav class="nav">
+          <a href="equipment.html" class="nav__link">Equipment</a>
+          <a href="aboutus.html" class="nav__link">About us</a>
+          <a href="blog.html" class="nav__link">Blog</a>
+        </nav>
+        <div class="user-nav">
+          <a href="#" class="user-nav__link">Account</a>
+        </div>
+
+        <div class="hamburger">
+          <input
+            class="hamburger__checkbox"
+            type="checkbox"
+            id="check"
+            hidden
+          />
+          <label for="check" class="hamburger__box">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+          </label>
+          <div class="hamburger__menu">
+            <a class="hamburger__link" href="#">Equipment</a>
+            <a class="hamburger__link" href="#">About us</a>
+            <a class="hamburger__link" href="#">Blog</a>
+
+            <div class="hamburger__user-nav">
+              <a href="#" class="hamburger__user-link">Account</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main container">
+      <section class="guide">
+        <div class="guide__social-list">
+          <a href="#" class="guide__social-link" aria-label="Follow us"
+            >Follow us</a
+          >
+          <a href="#" class="guide__social-link" aria-label="instagram">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+            >
+              <path
+                fill="#fff"
+                d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6Zm9.65 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"
+              />
+            </svg>
+          </a>
+          <a href="#" class="guide__social-link" aria-label="Twitter">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="17"
+              fill="none"
+            >
+              <path
+                fill="#fff"
+                d="M21.46 2.012a8.58 8.58 0 0 1-2.466.676A4.305 4.305 0 0 0 20.881.314a8.591 8.591 0 0 1-2.725 1.041 4.292 4.292 0 0 0-7.313 3.914A12.184 12.184 0 0 1 1.997.787a4.271 4.271 0 0 0-.581 2.157 4.29 4.29 0 0 0 1.91 3.572 4.276 4.276 0 0 1-1.945-.537v.054c0 2.08 1.48 3.814 3.443 4.209a4.296 4.296 0 0 1-1.939.073 4.296 4.296 0 0 0 4.01 2.98 8.61 8.61 0 0 1-5.33 1.838c-.347 0-.688-.02-1.024-.06A12.147 12.147 0 0 0 7.12 17c7.893 0 12.21-6.54 12.21-12.21 0-.187-.004-.372-.012-.556a8.719 8.719 0 0 0 2.141-2.222Z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="guide__main-content main-content">
+          <span class="main-content__text">A HIKING GUIDE</span>
+          <h1 class="main-content__title">
+            Be prepared for the Mountains and beyond!
+          </h1>
+          <span class="main-content__bottom-text">scroll down</span>
+        </div>
+
+        <ul class="guide__scroll-list">
+          <li class="guide__scroll-item">Start</li>
+          <li class="guide__scroll-item">1</li>
+          <li class="guide__scroll-item">2</li>
+          <li class="guide__scroll-item">3</li>
+        </ul>
+      </section>
+
+      <section class="main-steps">
+        <div class="main-steps__description description">
+          <div class="description__wrapper description__wrapper--first-step">
+            <span class="description__text">GET STARTED</span>
+            <h2 class="description__title">What level of hiker are you?</h2>
+            <p class="description__content">
+              Determining what level of hiker you are can be an important tool
+              when planning future hikes. This hiking level guide will help you
+              plan hikes according to different hike ratings set by various
+              websites like All Trails and Modern Hiker. What type of hiker are
+              you – novice, moderate, advanced moderate, expert, or expert
+              backpacker?
+            </p>
+            <a class="description__more">read more</a>
+          </div>
+          <img
+            src="img/img1.jpg"
+            class="description__img"
+            alt="Man against the background of mountains and river"
+            width="400px"
+          />
+        </div>
+
+        <div class="main-steps__description description">
+          <div
+            class="description__wrapper description__wrapper--reverse description__wrapper--second-step"
+          >
+            <span class="description__text">HIKING ESSENTIALS</span>
+            <h2 class="description__title">Picking the right Hiking Gear!</h2>
+            <p class="description__content">
+              The nice thing about beginning hiking is that you don't really
+              need any special gear, you can probably get away with things you
+              already have. Let's start with clothing. A typical mistake hiking
+              beginners make is wearing jeans and regular clothes, which will
+              get heavy and chafe wif they get sweaty or wet.
+            </p>
+            <a class="description__more">read more</a>
+          </div>
+          <img
+            src="img/img2.jpg"
+            class="description__img"
+            alt="Man against the background of mountains"
+            width="400px"
+          />
+        </div>
+
+        <div class="main-steps__description description">
+          <div class="description__wrapper description__wrapper--third-step">
+            <span class="description__text">WHERE YOU GO IS THE KEY</span>
+            <h2 class="description__title">Understand Your Map & Timing</h2>
+            <p class="description__content">
+              To start, print out the hiking guide and map. If it's raining,
+              throw them in a Zip-Lock bag. Read over the guide, study the map,
+              and have a good idea of what to expect. I like to know what my
+              next landmark is as I hike. For example, I'll read the guide and
+              know that say, in a mile, I make a right turn at the junction..
+            </p>
+            <a class="description__more">read more</a>
+          </div>
+          <img
+            src="img/img3.jpg"
+            class="description__img"
+            alt="Hand holds a watch against the mountains"
+            width="400px"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer container">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__wrapper-content">
+          <span class="page-footer__text">MNTN</span>
+          <p class="page-footer__description">
+            Get out there & discover your next slope, mountain & destination!
+          </p>
+        </div>
+        <div class="page-footer__copyright">
+          <p class="page-footer__copyright-text">
+            Copyright 2019 MNTN, Inc. Terms & Privacy
+          </p>
+        </div>
+      </div>
+
+      <div class="page-footer__more-info more-info">
+        <div class="more-info__wrap">
+          <span class="more-info__title">More on The Blog</span>
+          <ul class="more-info__blog-list">
+            <li class="more-info__blog-item">About MNTN</li>
+            <li class="more-info__blog-item">Contributors & Writers</li>
+            <li class="more-info__blog-item">Write For Us</li>
+            <li class="more-info__blog-item">Contact Us</li>
+            <li class="more-info__blog-item">Privacy Policy</li>
+          </ul>
+        </div>
+
+        <div class="more-info__wrap">
+          <span class="more-info__title">More on MNTN</span>
+          <ul class="more-info__blog-list">
+            <li class="more-info__blog-item">The Team</li>
+            <li class="more-info__blog-item">Jobs</li>
+            <li class="more-info__blog-item">Press</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
